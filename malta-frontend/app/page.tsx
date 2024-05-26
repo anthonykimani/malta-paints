@@ -1,3 +1,4 @@
+import ColorCollection from "@/components/landing/ColorCollection";
 import HeroSection from "@/components/landing/HeroSection";
 import Navbar from "@/components/landing/Navbar";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Navbar />
       <HeroSection />
+      <ColorCollection />
     </main>
   );
 }

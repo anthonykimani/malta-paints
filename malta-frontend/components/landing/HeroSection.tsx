@@ -4,8 +4,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="bg-app-bg bg-no-repeat bg-cover h-screen flex flex-col md:flex-row items-end justify-center text-center p-2 md:py-10 md:px-20">
-      <article className="text-black flex flex-col justify-around md:justify-center h-[500px] items-center">
+    <div className="bg-app-bg bg-no-repeat bg-cover flex flex-col md:flex-row items-end justify-center text-center p-2 md:py-10 md:px-20">
+      <article className="text-black flex flex-col justify-around md:justify-center items-center">
         <h1 className="text-white font-clashDisplay text-5xl lg:text-6xl font-bold md:my-[20px]">
           Malta Paints
         </h1>
