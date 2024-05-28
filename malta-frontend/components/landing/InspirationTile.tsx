@@ -15,7 +15,7 @@ const InspirationTile = () => {
           <div className="lg:px-0 lg:pt-4 w-full">
             <div className="flex justify-between items-center w-full p-5 md:py-10 md:px-20">
               <h2 className="text-black text-center text-3xl xsm:text-[40px] font-bold my-2">
-                Color Collection
+                Inspiration Tile
               </h2>
               <button className="text-black text-center text-base xsm:text-lg md:text-xl bg-gray-100 p-4 font-semibold">
                 Go to Catalogue
