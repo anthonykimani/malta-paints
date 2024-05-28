@@ -1,3 +1,5 @@
+"use client"
+
 import { Interior } from "@/constants/img";
 import { colorCollection } from "@/helpers/colorCollection";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
@@ -19,8 +21,8 @@ const InspirationTile = () => {
                 Go to Catalogue
               </button>
             </div>
-            <div className=" flex flex-col lg:flex-row ">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 w-1/2">
+            <div className=" flex flex-col lg:flex-row w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 w-full lg:w-1/2">
                 {colorCollection.map((element) => {
                   return (
                     <div
@@ -33,7 +35,7 @@ const InspirationTile = () => {
                   );
                 })}
               </div>
-              <div className="w-1/2">
+              <div className="w-full lg:w-1/2">
                 <svg
 
                   viewBox="0 0 1200 800"
