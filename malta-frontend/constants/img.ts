@@ -4,6 +4,7 @@ import BluePaint from "@/public/img/blue-paint.jpg";
 import GreenPaint from "@/public/img/green-paint.jpg";
 import PurplePaint from "@/public/img/purpl-paint.jpg";
 import WhiteBluePaint from "@/public/img/whiteblue-paint.jpg";
+import Interior from "@/public/img/interior.jpg";
 
 export {
     MaltaHero,
@@ -11,5 +12,6 @@ export {
     BluePaint,
     GreenPaint,
     PurplePaint,
-    WhiteBluePaint
+    WhiteBluePaint,
+    Interior
 }

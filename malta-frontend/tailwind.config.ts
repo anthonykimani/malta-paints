@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        DM: ["DM Sans", "sans-serif"],
+        clash: ["Clash Display", "sans-serif"],
+        clashDisplay: ['var(--font-clashDisplay)'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "app-bg":"url('/img/paint-bg.jpg')",

@@ -3,18 +3,18 @@ import { BluePaint, GoldPaint, GreenPaint, PurplePaint, WhiteBluePaint } from "@
 export const productSource = [
     {
         imageSource: GoldPaint,
-        text: "Malta GoldenPaint"
+        text: "Malta Plastic Emulsion"
     },
     {
         imageSource: BluePaint,
-        text: "Malta BluePaint"
+        text: "Malta Silk Vinyl"
     },
     {
         imageSource: GreenPaint,
-        text: "Malta GreenPaint"
+        text: "Malta Weather Guard"
     },
     {
         imageSource: PurplePaint,
-        text: "Malta PurlpePaint"
+        text: "Malta Vinyl Matt"
     },
 ]
