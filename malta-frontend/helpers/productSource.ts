@@ -1,20 +1,24 @@
-import { BluePaint, GoldPaint, GreenPaint, PurplePaint, WhiteBluePaint } from "@/constants/img";
+import { BluePaint, GoldPaint, GreenPaint, MaltaRockEmulsion, PlasticEmulsion, PurplePaint, SilkVinyl, VinylMatt, WeatherGuard, WhiteBluePaint } from "@/constants/img";
 
 export const productSource = [
     {
-        imageSource: GoldPaint,
+        imageSource: PlasticEmulsion,
         text: "Malta Plastic Emulsion"
     },
     {
-        imageSource: BluePaint,
+        imageSource: SilkVinyl,
         text: "Malta Silk Vinyl"
     },
     {
-        imageSource: GreenPaint,
+        imageSource: WeatherGuard,
         text: "Malta Weather Guard"
     },
     {
-        imageSource: PurplePaint,
+        imageSource: VinylMatt,
         text: "Malta Vinyl Matt"
+    },
+    {
+        imageSource: MaltaRockEmulsion,
+        text: "Malta Rock Emulsion"
     },
 ]

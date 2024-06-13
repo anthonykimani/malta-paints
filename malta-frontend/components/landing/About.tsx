@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="bg-white w-full">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 w-full">
-        <div className=" lg:px-8 lg:py-40 w-full">
+        <div className=" lg:px-8 lg:py-10 w-full">
           <div className="lg:px-0 lg:pt-4 w-full">
             <div className=" flex flex-col lg:flex-row w-full">
               <div className="w-full p-5">
@@ -35,9 +35,7 @@ export default function About() {
                   Bring your Home to Life
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  Visit your Local Hardwares, Industrial Parks to find our products in stock
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a

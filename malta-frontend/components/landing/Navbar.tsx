@@ -18,10 +18,10 @@ import { HifadhiLogo } from "@/constants/svg";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Products", href: "/products", current: false },
-  { name: "Paints", href: "/paints", current: false },
-  { name: "About", href: "/about", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Products", href: "/products", current: false, scrollheight: 1200 },
+  { name: "Paints", href: "/paints", current: false, scrollheight: 1900  },
+  { name: "About", href: "/about", current: false, scrollheight: 2500  },
+  { name: "Contact", href: "#", current: false, scrollheight: 3000  },
 ];
 
 function classNames(...classes: string[]) {
@@ -48,19 +48,24 @@ export default function Navbar() {
                 <div className="hidden lg:ml-6 sm:flex justify-end w-full">
                   <div className="flex justify-around">
                     {navigation.map((item) => (
-                      <Link
+                      <li
                         key={item.name}
-                        href={item.href}
+                        onClick={() => {
+                          window.scrollBy({
+                            top: item.scrollheight,
+                            behavior:"smooth"
+                          });
+                        }}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-gray-500 hover:bg-gray-700 hover:text-white",
-                          "rounded-full px-5 py-2 text-sm font-medium"
+                          "rounded-full px-5 py-2 text-sm font-medium list-none"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </Link>
+                      </li>
                     ))}
                   </div>
                 </div>

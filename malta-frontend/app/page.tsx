@@ -1,5 +1,7 @@
 import About from "@/components/landing/About";
 import ColorCollection from "@/components/landing/ColorCollection";
+import DisplayProduct from "@/components/landing/DisplayProduct";
+import DisplayProductReversed from "@/components/landing/DisplayProductReversed";
 import Footer from "@/components/landing/Footer";
 import HeroSection from "@/components/landing/HeroSection";
 import InspirationTile from "@/components/landing/InspirationTile";
@@ -11,9 +13,11 @@ export default function Home() {
     <main className="font-DM">
       <Navbar />
       <HeroSection />
-      <ColorCollection />
       <Products />
-      <InspirationTile />
+      {/* <InspirationTile /> */}
+      <DisplayProduct />
+      <DisplayProductReversed />
+      <DisplayProduct />
       <About />
       <Footer />
     </main>
