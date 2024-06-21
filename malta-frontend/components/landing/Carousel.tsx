@@ -3,7 +3,8 @@
 import { BuildingFive, BuildingOne, BuildingThree } from "@/constants/img";
 import "@splidejs/react-splide/css";
 import Image from "next/image";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide, SplideSlide } from "react-splide-ts";
+
 
 import React from "react";
 
