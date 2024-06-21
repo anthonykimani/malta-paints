@@ -15,6 +15,12 @@ import VinylMatt from "@/public/img/vinyl-matt.jpg";
 import WeatherGuard from "@/public/img/weather-guard.jpg";
 import SilkVinylInterior from "@/public/img/silk-vinyl-interior.png";
 import PlasticEmulsionInterior from "@/public/img/plastic-emulsion-interior.png";
+import BuildingOne from "@/public/img/building-one.jpg";
+import BuildingTwo from "@/public/img/building-two.jpg";
+import BuildingThree from "@/public/img/building-three.jpg";
+import BuildingFour from "@/public/img/building-four.jpg";
+import BuildingFive from "@/public/img/building-five.jpg";
+import ColorChart from "@/public/img/color-chart.png";
 
 export {
     MaltaHero,
@@ -31,5 +37,11 @@ export {
     VinylMatt,
     WeatherGuard,
     SilkVinylInterior,
-    PlasticEmulsionInterior
+    PlasticEmulsionInterior,
+    BuildingOne,
+    BuildingTwo,
+    BuildingThree,
+    BuildingFour,
+    BuildingFive,
+    ColorChart
 }

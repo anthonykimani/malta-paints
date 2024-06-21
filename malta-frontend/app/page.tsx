@@ -1,4 +1,5 @@
 import About from "@/components/landing/About";
+import Carousel from "@/components/landing/Carousel";
 import ColorCollection from "@/components/landing/ColorCollection";
 import DisplayProduct from "@/components/landing/DisplayProduct";
 import DisplayProductReversed from "@/components/landing/DisplayProductReversed";
@@ -7,8 +8,10 @@ import HeroSection from "@/components/landing/HeroSection";
 import InspirationTile from "@/components/landing/InspirationTile";
 import Navbar from "@/components/landing/Navbar";
 import Products from "@/components/landing/Products";
+import { register } from 'swiper/element/bundle';
 
 export default function Home() {
+  register();
   return (
     <main className="font-DM">
       <Navbar />
@@ -19,6 +22,7 @@ export default function Home() {
       <DisplayProductReversed />
       <DisplayProduct />
       <About />
+      <ColorCollection />
       <Footer />
     </main>
   );

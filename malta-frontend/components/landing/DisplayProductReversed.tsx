@@ -26,7 +26,7 @@ export default function DisplayProductReversed() {
         <div className="flex flex-col lg:flex-row-reverse">
           <div className="lg:order-2 lg:w-1/2 p-4">
             <p className="mt-4 text-4xl font-bold tracking-tight text-gray-900">
-            MALTA PLASTIC EMULSION
+            Malta Plastic Emulsion
             </p>
             <p className="mt-4 text-gray-500">
             Malta Vinyl Matt Emulsion Paint offers maximum protection on the interior and exterior surfaces. Suitable for new and previously painted plaster, cement, brick stone and many other surfaces including soft board and hardboard ceilings and walls, asbestos sheets etc. Ease of application dries to a smooth, glossy finish.
