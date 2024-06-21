@@ -1,9 +1,9 @@
 "use client";
 
 import { BuildingFive, BuildingOne, BuildingThree } from "@/constants/img";
-import "@splidejs/react-splide/css";
 import Image from "next/image";
 import { Splide, SplideSlide } from "react-splide-ts";
+import "react-splide-ts/css";
 
 
 import React from "react";

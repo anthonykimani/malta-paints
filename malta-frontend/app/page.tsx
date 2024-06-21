@@ -8,10 +8,8 @@ import HeroSection from "@/components/landing/HeroSection";
 import InspirationTile from "@/components/landing/InspirationTile";
 import Navbar from "@/components/landing/Navbar";
 import Products from "@/components/landing/Products";
-import { register } from 'swiper/element/bundle';
 
 export default function Home() {
-  register();
   return (
     <main className="font-DM">
       <Navbar />
