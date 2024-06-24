@@ -15,13 +15,19 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import { HifadhiLogo } from "@/constants/svg";
+import ScrollIntoView from "react-scroll-into-view";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "Products", href: "/products", current: false, scrollheight: 1200 },
-  { name: "Paints", href: "/paints", current: false, scrollheight: 1900  },
-  { name: "About", href: "/about", current: false, scrollheight: 2500  },
-  { name: "Contact", href: "#", current: false, scrollheight: 3000  },
+  { name: "Home", href: "/", current: true, selector: "" },
+  {
+    name: "Products",
+    href: "/products",
+    current: false,
+    selector: "#products",
+  },
+  { name: "Paints", href: "/paints", current: false, selector: "#paints" },
+  { name: "About", href: "/about", current: false, selector: "#about" },
+  { name: "Contact", href: "#", current: false, selector: "#contact" },
 ];
 
 function classNames(...classes: string[]) {
@@ -48,24 +54,19 @@ export default function Navbar() {
                 <div className="hidden lg:ml-6 sm:flex justify-end w-full">
                   <div className="flex justify-around">
                     {navigation.map((item) => (
-                      <li
-                        key={item.name}
-                        onClick={() => {
-                          window.scrollBy({
-                            top: item.scrollheight,
-                            behavior:"smooth"
-                          });
-                        }}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-500 hover:bg-gray-700 hover:text-white",
-                          "rounded-full px-5 py-2 text-sm font-medium list-none"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </li>
+                      <ScrollIntoView key={item.name} selector={item.selector}>
+                        <li
+                          className={classNames(
+                            item.current
+                              ? "bg-gray-900 text-white"
+                              : "text-gray-500 hover:bg-gray-700 hover:text-white",
+                            "rounded-full px-5 py-2 text-sm font-medium list-none"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </li>
+                      </ScrollIntoView>
                     ))}
                   </div>
                 </div>
@@ -166,20 +167,19 @@ export default function Navbar() {
           <DisclosurePanel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
-                <DisclosureButton
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </DisclosureButton>
+                <ScrollIntoView key={item.name} selector={item.selector}>
+                  <DisclosureButton
+                    className={classNames(
+                      item.current
+                        ? "bg-gray-900 text-white"
+                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      "block rounded-md px-3 py-2 text-base font-medium"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
+                    {item.name}
+                  </DisclosureButton>
+                </ScrollIntoView>
               ))}
             </div>
           </DisclosurePanel>

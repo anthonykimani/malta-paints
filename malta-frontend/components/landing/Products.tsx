@@ -4,14 +4,14 @@ import React from "react";
 
 const Products = () => {
   return (
-    <section className="flex flex-col items-center font-jakarta">
+    <section className="flex flex-col items-center font-jakarta" id="products">
       <div className="flex justify-between items-center w-full p-5 md:py-10 md:px-20">
         <h2 className="text-black text-center text-3xl xsm:text-[40px] font-bold my-2">
           Popular Product
         </h2>
-        <button className="text-black text-center text-base xsm:text-lg md:text-xl bg-gray-100 p-4 font-semibold">
+        {/* <button className="text-black text-center text-base xsm:text-lg md:text-xl bg-gray-100 p-4 font-semibold">
           Go to Catalogue
-        </button>
+        </button> */}
       </div>
       <div className="flex flex-col md:flex-row items-center w-full p-5 md:py-10 md:px-20">
         <article className="text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center  w-full">

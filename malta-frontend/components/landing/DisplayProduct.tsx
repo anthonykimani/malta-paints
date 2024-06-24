@@ -21,7 +21,7 @@ const features = [
 
 export default function DisplayProduct() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="paints">
       <section aria-labelledby="features-heading" className="relative">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-2 lg:w-1/2 p-4">

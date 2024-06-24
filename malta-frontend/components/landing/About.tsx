@@ -161,7 +161,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="about">
       <main className="isolate">
         {/* Hero section */}
         <div className="relative isolate -z-10">
@@ -217,12 +217,40 @@ export default function Example() {
                     Some of the projects that trust us
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Our paint manufacturing expertise is trusted by a wide array
-                    of esteemed projects across various sectors. We pride
-                    ourselves on delivering high-quality, durable, and
-                    aesthetically pleasing paint solutions that meet the diverse
-                    needs of our clients. Here are some of the notable projects
-                    that have relied on our products and services:
+                    Welcome to Malta Paints, Nairobi&apos;s leading painting company
+                    dedicated to transforming spaces with unparalleled quality
+                    and service. With a commitment to excellence in both supply
+                    and application, Malta Paints stands at the forefront of
+                    Kenya&apos;s painting industry. <br />
+                    <br /> At Malta Paints, we blend expertise with passion,
+                    ensuring each stroke of paint enhances the beauty and
+                    durability of your surroundings. Our dedicated team of
+                    professionals brings years of experience and a keen eye for
+                    detail to every project, whether residential, commercial, or
+                    industrial. <br />
+                    <br /> What sets us apart is our unwavering dedication to
+                    customer satisfaction. We understand that your home or
+                    business is more than just a space – it&apos;s a reflection of
+                    your style and identity. That&apos;s why we work closely with our
+                    clients, offering tailored solutions that exceed
+                    expectations and bring visions to life.
+                    <br />
+                    <br /> From initial consultation to final brushstroke, Malta
+                    Paints prioritizes quality craftsmanship and premium
+                    products. We source only the finest materials to ensure
+                    lasting beauty and protection for your property. Whether you
+                    seek a modern makeover, a timeless classic, or a bold
+                    statement, our comprehensive range of colors and finishes
+                    guarantees the perfect match for your aesthetic.
+                    <br />
+                    <br /> Experience the Malta Paints difference – where
+                    expertise meets innovation, and every project is a
+                    masterpiece in the making. Join countless satisfied
+                    customers who trust us to deliver excellence, reliability,
+                    and a commitment to excellence in every coat.
+                    <br />
+                    <br /> Discover the art of painting with Malta Paints. Your
+                    vision, our passion – together, we create enduring beauty.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
