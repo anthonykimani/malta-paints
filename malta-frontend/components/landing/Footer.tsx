@@ -107,11 +107,8 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="mt-10 xl:mt-0">
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              Get in touch
+              Contact Us
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-200">
-              Want to reach out to us? Enter your email in the form
-            </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-200">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
