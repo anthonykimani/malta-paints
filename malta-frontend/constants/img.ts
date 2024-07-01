@@ -39,6 +39,7 @@ import IMG058 from "@/public/img/IMG-20240612-WA0058.jpg";
 import IMG059 from "@/public/img/IMG-20240612-WA0059.jpg";
 import IMG060 from "@/public/img/IMG-20240612-WA0060.jpg";
 import IMG062 from "@/public/img/IMG-20240612-WA0062.jpg";
+import MaltaLogo from "@/public/img/malta-logo.png";
 
 export {
   MaltaHero,
@@ -81,4 +82,5 @@ export {
   IMG059,
   IMG060,
   IMG062,
+  MaltaLogo
 };

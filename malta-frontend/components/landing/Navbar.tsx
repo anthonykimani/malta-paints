@@ -16,6 +16,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HifadhiLogo } from "@/constants/svg";
 import ScrollIntoView from "react-scroll-into-view";
+import { MaltaLogo } from "@/constants/img";
 
 const navigation = [
   { name: "Home", href: "/", current: true, selector: "" },
@@ -45,7 +46,7 @@ export default function Navbar() {
                 <Link href="/" className="flex flex-shrink-0 items-center">
                   <Image
                     className="h-8 w-auto"
-                    src={HifadhiLogo}
+                    src={MaltaLogo}
                     alt="Your Company"
                     width={100}
                     height={100}
